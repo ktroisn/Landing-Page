@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Nexa-Heavy';
+    src: url('/Nexa/Nexa-Heavy.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('/Nexa/Nexa-ExtraLight.ttf') format(truetype);
+}
+
+* { 
+    font-family: 'Nexa';
+    margin: 0px; 
+}
+body {
+    margin: 0;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.background-radiant {
+    z-index: 1;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    height: 100vh;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    padding: 20px 100px 0px 100px;
+}
+
+nav { 
+    display: flex; 
+}
+
+.logo {
+    font-size: 2.5em;
+    font-family: 'Nexa-Heavy';
+}
+
+.navigation { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 50%; 
+}
+
+.network {
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+}
+
+.socialimg {
+    width: 20px;
+}
+
+ul { 
+    padding: 0px; 
+}
+
+li { 
+    list-style-type: none; 
+}
+
+.element { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 3em; 
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    padding: 0.3em;
+    background-color: white;
+    border-radius: 35px;
+}
+
+input[type=text]{
+    border: none;
+    margin: 10px;
+    width: 100%;
+}
+
+input[type=submit]{
+    color: white;
+    border: none;
+    background-color: lightblue;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline:none;
+   }
+
+.input-mail {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 350px;
+}
+
+.input-paragraph {
+    font-size: 1.1em;
+    max-width: 75%;
+    margin: 25px 0px 25px 0px;
+}
+
+.titre {
+    font-size: 3em;
+    font-family: 'Nexa-Heavy';
+}
+
+.figure-first {
+    width: 645px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.title-product {
+    padding: 20px 0px 0px 0px;
+    font-family: 'Nexa-Heavy';
+    font-size: 3em;
+}
+
+.paragraph-product{width: 400px;text-align: justify;}
+
+.block-containers-radiant {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+.container-radiant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    border-radius: 33px;
+}
