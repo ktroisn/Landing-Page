@@ -1,3 +1,4 @@
+/* ---------- STYLE GENERAL ---------- */
 @font-face {
     font-family: 'Nexa-Heavy';
     src: url('/Nexa/Nexa-Heavy.ttf') format(truetype);
@@ -16,12 +17,28 @@ body {
 }
 
 
-.main-container {
+.main-container { /* Conteneur avec toutes les "pages" */
     display: flex;
     flex-direction: column;
 }
 
-.background-radiant {
+.title-page {
+    padding: 20px 0px 0px 0px;
+    font-family: 'Nexa-Heavy';
+    font-size: 3em;
+}
+
+.paragraph-title{
+    width: 400px;
+    text-align: justify;
+}
+
+/* ---------- FIN DU STYLE GENERAL ---------- */
+
+/* ---------- DEBUT DES PAGES ---------- */
+
+/* - HOME - */
+.background-radiant { 
     z-index: 1;
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     height: 100vh;
@@ -33,10 +50,6 @@ body {
     align-items: center;
     color: whitesmoke;
     padding: 20px 100px 0px 100px;
-}
-
-nav { 
-    display: flex; 
 }
 
 .logo {
@@ -73,6 +86,15 @@ li {
     justify-content: center; 
     align-items: center; 
     padding: 3em; 
+}
+
+.figure-first {
+    width: 645px;
+}
+
+.titre {
+    font-size: 3em;
+    font-family: 'Nexa-Heavy';
 }
 
 .input {
@@ -114,16 +136,9 @@ input:focus {
     max-width: 75%;
     margin: 25px 0px 25px 0px;
 }
+/* - FIN DE LA PAGE HOME - */
 
-.titre {
-    font-size: 3em;
-    font-family: 'Nexa-Heavy';
-}
-
-.figure-first {
-    width: 645px;
-}
-
+/* - PAGE FEATURES - */
 .products {
     display: flex;
     flex-direction: column;
@@ -131,14 +146,6 @@ input:focus {
     justify-content: space-around;
     height: 100vh;
 }
-
-.title-product {
-    padding: 20px 0px 0px 0px;
-    font-family: 'Nexa-Heavy';
-    font-size: 3em;
-}
-
-.paragraph-product{width: 400px;text-align: justify;}
 
 .block-containers-radiant {
     display: flex;
@@ -160,3 +167,66 @@ input:focus {
     text-align: center;
     border-radius: 33px;
 }
+/* - FIN DE LA PAGE FEATURES - */
+
+/* - PAGE EQUIPE - */
+.team {
+
+}
+
+.stats {
+
+}
+
+.stats-number {
+
+}
+
+.number-desc {
+
+}
+
+.kucra-teams {
+
+}
+
+.box-img {
+
+}
+
+.images {
+
+}
+
+.name {
+
+}
+
+.poste {
+    
+}
+/* - FIN PAGE EQUIPE - */
+
+/* - DEBUT PARRALLAX - */
+
+/* - FIN PARRALLAX - */
+
+/* - DEBUT PAFE CLIENT - */
+
+/* - FIN DE PAGE CLIENT - */
+
+/* - DEBUT DE PAGE ABOUT - */
+
+/* - FIN DE PAGE ABOUT - */
+
+/* - DEBUT DE PAGE PRICING - */
+
+/* - FIN PAGE PRICING - */
+
+/* - PAGE BLOG - */
+
+/* - FIN PAGE BLOG - */
+
+/* ---------- FIN DES PAGES ---------- */
+
+/* ---------- FOOTER ---------- */
