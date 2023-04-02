@@ -277,9 +277,41 @@ input:focus {
 
 /* - DEBUT PAGE CLIENT - */
 .clients {
-    height: 100vh
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    background-color: whitesmoke;
 }
 
+.container-clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.title-clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-clients {
+    width: 60%;
+    text-align: center;
+}
+
+.figure-clients {
+    width: 120px;
+}
+
+.img-client {
+    width: 100%;
+}
 /* - FIN DE PAGE CLIENT - */
 
 /* - DEBUT DE PAGE ABOUT - */
