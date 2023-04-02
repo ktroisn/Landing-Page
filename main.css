@@ -23,10 +23,10 @@ body {
 }
 
 .title-page {
-    padding: 20px 0px 0px 0px;
     font-family: 'Nexa-Heavy';
     font-size: 3em;
     text-align: center;
+    width: 67%;
 }
 
 .paragraph-title{
@@ -146,6 +146,7 @@ input:focus {
     align-items: center;
     justify-content: space-around;
     height: 100vh;
+    padding: 10px 0px 10px 0px;
 }
 
 .block-containers-radiant {
@@ -177,6 +178,12 @@ input:focus {
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+    background-color: whitesmoke;
+}
+
+.paragraph-team {
+    width: 67%;
+    text-align: center;
 }
 
 .container-stats {
@@ -224,10 +231,54 @@ input:focus {
 /* - FIN PAGE EQUIPE - */
 
 /* - DEBUT PARRALLAX - */
+.parallax {
+    background-image: url("/img/parallax.png");
+    height: 65vh; /* Definir la hauteur visible */
+  
+    /* L'effet de parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.filter-background {
+    height: 100%;
+    background-color: #0000008c;
+}
+
+.content-parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: whitesmoke;
+}
+
+.title-parallax {
+
+}
+
+.paragraph-parallax {
+    width: 60%;
+    text-align: center;
+}
+
+.button-parallax {
+    color: whitesmoke;
+    padding: 10px 20px 10px 20px;
+    border: 2px white solid;
+    background: #ffffff00;
+    border-radius: 5px;
+    margin-top: 50px;
+}
 /* - FIN PARRALLAX - */
 
-/* - DEBUT PAFE CLIENT - */
+/* - DEBUT PAGE CLIENT - */
+.clients {
+    height: 100vh
+}
 
 /* - FIN DE PAGE CLIENT - */
 
