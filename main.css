@@ -26,6 +26,7 @@ body {
     padding: 20px 0px 0px 0px;
     font-family: 'Nexa-Heavy';
     font-size: 3em;
+    text-align: center;
 }
 
 .paragraph-title{
@@ -171,11 +172,25 @@ input:focus {
 
 /* - PAGE EQUIPE - */
 .team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
 
+.container-stats {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
 }
 
 .stats {
-
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .stats-number {
@@ -187,15 +202,16 @@ input:focus {
 }
 
 .kucra-teams {
-
+    display: inline-flex;
+    width: 70%;
+    justify-content: space-between;
 }
 
 .box-img {
-
 }
 
 .images {
-
+    width: 200px;
 }
 
 .name {
