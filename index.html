@@ -8,6 +8,7 @@
     <title>Landing-Page</title>
 </head>
 <body>
+    
     <main class="main-container"> <!--Conteneur principale-->
 
     <div class="background-radiant">  <!--Block background radiant-->
@@ -15,14 +16,14 @@
             <nav class="main-navigation"><!--Block navigation, avec le logo(h1), premier nav = navigation dans le site, second nav = réseaux-->
             <h1 class="logo">Kucra</h1>
                 <ul class="navigation">
-                    <li>HOME</li>
-                    <li>FEATURES</li>
-                    <li>CLIENT</li>
-                    <li>PIRCING</li>
-                    <li>FAQ</li>
-                    <li>ABOUT</li>
-                    <li>BLOG</li>
-                    <li>CONTACT</li>
+                    <a href="#"><li>HOME</li></a>
+                    <a href="#features"><li>FEATURES</li></a>
+                    <a href="#client"><li>CLIENT</li></a>
+                    <a href="#pricing"><li>PRICING</li></a>
+                    <a href="#"><li>FAQ</li></a>
+                    <a href="#about"><li>ABOUT</li></a>
+                    <a href="#blog"><li>BLOG</li></a>
+                    <a href="#"><li>CONTACT</li></a>
                 </ul>
                 <ul class="network">
                     <li><img class="socialimg" src="/img/104498_facebook_icon.png"></li>
@@ -31,7 +32,7 @@
                 </ul>
             </nav> <!--Fin du block de navigation--> 
 
-            <section class="element"> <!--Section contenant, un block texte(h2, p et un 2 input), une figure-->
+                <section class="element"> <!--Section contenant, un block texte(h2, p et un 2 input), une figure-->
                 <div class="input-mail"> <!--Block pour le texte et l'input-->
                     <h2 class="titre">We Are StartUp Creative Kucra Agency</h2>
                     <p class="input-paragraph">
@@ -50,6 +51,7 @@
 
         </div> <!--Fin du block radiant-->
 
+        <a id="features"></a>
         <section class="products"> <!--Section contenant un premier h2 et p, un conteneur contenant 3 block (h3 et p), un second h2 et p(same)-->
             <h2 class="title-page">Products Features</h2>
             <p class="paragraph-title">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
@@ -82,6 +84,7 @@
             <p class="paragraph-title">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
         </section> <!--Fin de la section-->
 
+        <a id="client"></a>
         <section class="team"> <!--Section de la page equipe-->
                 <h2 class="title-page">We'r dynamic team of talented poeple of innovative & marketing expert.</h2>
                 <p class="paragraph-team">To achievement this, it would be necessary to have uniform grammar, pronunciation and more commons words. If several languagues of resulting language.</p>
@@ -111,29 +114,40 @@
             </div> <!--Fin du conteneur stats-->
 
             <div class="kucra-teams"> <!--Conteneur avec lequipe, photo, nom ,poste-->
-                <figure class="box-img"> <!--Boite contenant limage, le nom, le poste-->
-                    <img src="/img/person1.png" class="images">
+
+                <div class="box-img"> <!--Boite contenant limage, le nom, le poste-->
+                    <figure class="radius-img-team">
+                    <img src="/img/person1.png" class="images-team">
+                    <div class="caption">
+                    </div>
+                    </figure>
                     <h4 class="name">Anna G. Wilhite</h4>
                     <p class="poste">CEO/Founder</p>
-                </figure><!--Fin de la boite-->
+                </div><!--Fin de la boite-->
 
-                <figure class="box-img">
-                    <img src="/img/person2.png" class="images">
+                <div class="box-img">
+                <figure class="radius-img-team">
+                    <img src="/img/person2.png" class="images-team">
+                </figure>
                     <h4 class="name">William S. Blay</h4>
                     <p class="poste">CTO/Co-Founder</p>
-                </figure>
+                </div>
 
-                <figure class="box-img">
-                    <img src="/img/person3.png" class="images">
+                <div class="box-img">
+                    <figure class="radius-img-team">
+                    <img src="/img/person3.png" class="images-team">
+                    </figure>
                     <h4 class="name">Maria B. Morales</h4>
                     <p class="poste">Web Designer</p>
-                </figure>
+                </div>
 
-                <figure class="box-img">
-                    <img src="/img/person4.png" class="images">
+                <div class="box-img">
+                    <figure class="radius-img-team">
+                    <img src="/img/person4.png" class="images-team">
+                    </figure>
                     <h4 class="name">Luke L. Johnston</h4>
                     <p class="poste">Web Developer</p>
-                </figure>
+                </div>
             </div><!--Fin du conteneur-->
 
         </section> <!--Fin de la section page equipe-->
@@ -180,9 +194,169 @@
             </div>
         </section> <!--Fin page clients-->
 
+        <a id="about"></a>
+        <section class="about"> <!-- Debut page about-->
+
+            <div class="about-container">
+
+                <div class="about-text">
+                    <h3 class="title-about">We are digital creative Landing Page</h3>
+                    <p class="paragraph-about">The difference between a successful and others is not a lack of strength, not a lack of kmownledge, but rather a lack of will. Composed in a pseudo-latin language wich more or less pseudo-latin language correspond.</p>
+                    <div class="about-stats">
+                        <div class="individual-stats">
+                            <h4 class="h4-individual-stats">4957</h4>
+                            <p class="p-individual-stats">Happy User</p>
+                        </div>
+                        <div class="individual-stats">
+                            <h4 class="h4-individual-stats">1599</h4>
+                            <p class="p-individual-stats">Complete Project</p>
+                        </div>
+                    </div>
+                        <button class="button-about">
+                            Learn More
+                        </button>
+                </div>
+
+                <figure class="about-figure">
+                    <img src="/img/creativity.png" class="img-about">
+                </figure>
+
+            </div>
+        </section> <!--Fin de page about-->
+
+        <a id="pricing"></a>
+        <section class="pricing"> <!-- Debut de la page pricing-->
+
+            <div class="container-pricing">
+                <h2 class="title-pricing">Our Pricing</h2>
+                <p class="paragraph-pricing">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            </div>
+
+            <div class="box-price">
+
+                <div class="columns">
+                    <div class="container-offer">
+                        <h3 class="title-offer">Starter</h3>
+                        <h4 class="price-offer"><span style="color:blue; font-size:small;">$</span>9.99<span style=""> / month</span></h4>
+                    </div>
+                        <ul class="container-options-offer">
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                        </ul>
+                        <button>Join Now</button>
+                </div>
+
+                <div class="columns middle">
+                    <div class="container-offer">
+                        <h3 class="title-offer">Starter</h3>
+                        <h4 class="price-offer"><span style="color:blue; font-size:small;">$</span>9.99<span style=""> / month</span></h4>
+                    </div>
+                        <ul class="container-options-offer">
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                        </ul>
+                        <button>Join Now</button>
+                </div>
+
+                    <div class="columns">
+                        <div class="container-offer">
+                            <h3 class="title-offer">Starter</h3>
+                            <h4 class="price-offer"><span style="color:blue; font-size:small;">$</span>9.99<span style=""> / month</span></h4>
+                        </div>
+                            <ul class="container-options-offer">
+                                <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                                <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                                <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                                <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                                <li class="option-offer"><span><img src="/img/ok.png" class="checked"> Bandwidth </span><span style="float: right;">10GB</span></li>
+                            </ul>
+                            <button>Join Now</button>
+                    </div>
+
+            </div>
+        
+
+        </section> <!-- Fin de la page pricing-->
+
+
+        <a id="blog"></a>
+        <section class="blog">
+
+            <div>
+                <h2 class="title-blog">Our Blog</h2>
+                <p class="paragraph-blog">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            </div>
+
+            <div class="container-blog">
+                <div class="blog-self">
+                    <figure class="filter-img">
+                        <img src="/img/blog3.png" class="img-blog">
+                        <p class="text-appear"><span style="font-weight: 500;">Elisa</b><br>20 March 2021</p>
+                    </figure>
+                        <h3 class="title-blog-self">Doing a cross country road trip</h3>
+                        <p class="paragraph-blog-self">We craft digital graphic and dimensionnal, thinking, to create category leading brand.</p>
+                        <button class="blog-button">Read More</button>
+                </div>
+
+                <div class="blog-self">
+                    <figure class="filter-img">
+                        <img src="/img/blog1.png" class="img-blog">
+                        <p class="text-appear"><span style="font-weight: 500;">Elisa</b><br>20 March 2021</p>
+                    </figure>
+                        <h3 class="title-blog-self">New exhibition at our Museum</h3>
+                        <p>Even the all-powerfull Pointing has no control about the blind the blind unorthographique.</p>
+                        <button class="blog-button">Read More</button>
+                </div>
+
+                <div class="blog-self">
+                    <figure class="filter-img">
+                        <img src="/img/blog2.png" class="img-blog">
+                        <p class="text-appear"><span style="font-weight: 500;">Elisa</b><br>20 March 2021</p>
+                    </figure>
+                        <h3 class="title-blog-self">Design your apps on your own way</h3>
+                        <p class="paragraph-blog-self">Pytiful a rethoric question ran over her cheek, then she continued her way.</p>
+                        <button class="blog-button">Read More</button>
+                </div>
+
+            </div>
+
+        </section>
     </main><!--Fin de conteneur principale-->
+    <footer>
+        <div class="social-footer">
+            <figure>
+                <img src="">
+            </figure>
+                
+            <figure>
+                <img src="">
+            </figure>
+                
+            <figure>
+                <img src="">
+            </figure>
+                
+            <figure>
+                <img src="">
+            </figure>
+        </div>
+    
+        <div class="form-footer">
+            <h5>Terms & Condition</h5>
+            <h5>Privacy Policy</h5>
+            <h5>Contact Us</h5>
+        </div>
+    
+        <div class="copyright">
+            <h5>2023 Kucra - Landing Page Template by ktroisn</h5>
+        </div>
+    </footer>
+    <a href="#" class="top">Back to Top &#8593;</a>
 </body>
-
-<footer>
-
-</footer>
+</html>
