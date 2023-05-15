@@ -874,12 +874,35 @@
     .about-container {
       display: flex;
       flex-direction: column;
-      height: 600px;
+      height: 700px;
+      justify-content: space-between;
+      width: 100%;
+      margin: 10px;
+    }
+
+    .paragraph-about{
+      font-size: 0.8rem;
+      color: #423c3c;
+      text-align: justify;
+    }
+
+    .paragraph-pricing {
+      width: 100%;
+      font-size: 0.8rem;
+      text-align: justify;
+    }
+
+    .title-about {
+      font-size: 1.4rem;
+      color: #423c3c;
+      text-align: center;
     }
 
     .about-text {
       width: 100%;
       align-items: center;
+      height: 70vh;
+      justify-content: space-between;
     }
 
     .img-about {
@@ -887,7 +910,7 @@
     }
 
     .main-navigation {
-      padding: 20px 10px 0px 10px;
+      padding: 0px 10px 0px 10px;
       justify-content: space-between;
     }
 
@@ -911,6 +934,7 @@
     .paragraph-title {
       width: 100%;
       font-size: 0.8rem;
+      text-align: justify;
     }
 
     .form-footer {
@@ -925,11 +949,14 @@
     .title-page {
       font-size: 1.4rem;
       width: 100%;
+      font-family: 'Nexa-Heavy';
+      color: #423c3c;
     }
 
     .paragraph-team {
       width: 100%;
       font-size: 0.8rem;
+      text-align: justify;
     }
 
     .products {
@@ -946,7 +973,28 @@
 
     .team {
       height: max-content;
-      padding: 20px 5px 20px 5px;
+      padding: 20px 10px 20px 10px;
+    }
+
+    .paragraph-parallax {
+      width: 95%;
+      text-align: justify;
+    }
+
+    .paragraph-clients {
+      width: 95%;
+      text-align: justify;
+      font-size: 0.8rem;
+    }
+
+    .container-clients{
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .clients {
+      padding: 20px 0px 20px 0px;
+      height: max-content;
     }
 
     .number-desc {
@@ -956,24 +1004,46 @@
     .container-stats {
       align-items: baseline;
       width: 100%;
+      margin: 10px 0px 10px 0px;
     }
 
     .about {
       height: max-content;
-      padding: 20px;
+      padding: 20px 0px 20px 0px;
     }
     .about-stats {
-      width: 100%;
+      width: 70%;
+      justify-content: space-between;
+    }
+
+    .button-about {
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      font-size: 2rem;
+    }
+
+    .individual-stats {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .pricing {
       height: max-content;
-      padding: 20px;
+      padding: 20px 10px 20px 10px;
+    }
+
+    .paragraph-blog {
+      width: 100%;
+      font-size: 0.8rem;
+      text-align: justify;
     }
 
     .blog {
       height: max-content;
-      padding: 20px;
+      padding: 20px 10px 20px 10px;
     }
 
     footer {
@@ -984,8 +1054,8 @@
       display: block;
       position: relative;
       padding: 0;
-      width: 45px;
-      height: 45px;
+      width: 35px;
+      height: 35px;
       border: none;
       background: transparent;
       cursor: pointer;
@@ -993,7 +1063,7 @@
 
     .bar {
       display: block;
-      width: 45px;
+      width: 35px;
       height: 4px;
       background: whitesmoke;
       transition: all .5s ease-in-out;
@@ -1006,7 +1076,7 @@
 
     .bar::before, .bar::after {
       content: "";
-      width: 45px;
+      width: 35px;
       height: 4px;
       background: whitesmoke;
       position: absolute;
