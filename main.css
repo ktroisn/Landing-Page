@@ -879,13 +879,13 @@ footer {
   }
   .navigation {
     flex-direction: column;
+    justify-content: space-evenly;
     width: 0;
-    height: calc(100vh - 250px);
+    height: 100vh;
     position: fixed;
     top: 0px;
     right: 0px;
     background-color: rgba(0, 0, 0, 0.7960784314);
-    padding: 10px 0px 10px 0px;
     transition: all 0.5s ease-in-out;
     text-align: center;
   }
@@ -894,6 +894,7 @@ footer {
   }
   .paragraph-title {
     width: 100%;
+    font-size: 0.8rem;
   }
   .form-footer {
     width: 100%;
@@ -903,7 +904,12 @@ footer {
     text-align: center;
   }
   .title-page {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  .paragraph-team {
+    width: 100%;
+    font-size: 0.8rem;
   }
   .products {
     height: -moz-max-content;
@@ -919,7 +925,7 @@ footer {
   .team {
     height: -moz-max-content;
     height: max-content;
-    padding: 20px;
+    padding: 20px 5px 20px 5px;
   }
   .number-desc {
     font-size: 0.7rem;
@@ -963,7 +969,7 @@ footer {
     display: block;
     width: 45px;
     height: 4px;
-    background: white;
+    background: whitesmoke;
     transition: all 0.5s ease-in-out;
   }
   .open-burger .bar {
@@ -974,7 +980,7 @@ footer {
     content: "";
     width: 45px;
     height: 4px;
-    background: white;
+    background: whitesmoke;
     position: absolute;
     right: 0;
     transition: all 0.5s ease-in-out;

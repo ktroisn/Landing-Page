@@ -799,6 +799,7 @@
     .burger {
       display: none;
     }
+
    @media screen and (max-width: 375px) {
     html, body {
       max-width: 100%;
@@ -892,13 +893,13 @@
 
     .navigation {
       flex-direction: column;
+      justify-content: space-evenly;
       width: 0;
-      height: calc(100vh - 250px);
+      height: 100vh;
       position: fixed;
       top: 0px;
       right: 0px;
       background-color: #000000cb;
-      padding: 10px 0px 10px 0px;
       transition: all .5s ease-in-out;
       text-align: center;
     }
@@ -909,6 +910,7 @@
 
     .paragraph-title {
       width: 100%;
+      font-size: 0.8rem;
     }
 
     .form-footer {
@@ -921,7 +923,13 @@
     }
 
     .title-page {
-      font-size: 2rem;
+      font-size: 1.4rem;
+      width: 100%;
+    }
+
+    .paragraph-team {
+      width: 100%;
+      font-size: 0.8rem;
     }
 
     .products {
@@ -938,7 +946,7 @@
 
     .team {
       height: max-content;
-      padding: 20px;
+      padding: 20px 5px 20px 5px;
     }
 
     .number-desc {
@@ -987,7 +995,7 @@
       display: block;
       width: 45px;
       height: 4px;
-      background: white;
+      background: whitesmoke;
       transition: all .5s ease-in-out;
     }
 
@@ -1000,7 +1008,7 @@
       content: "";
       width: 45px;
       height: 4px;
-      background: white;
+      background: whitesmoke;
       position: absolute;
       right: 0;
       transition: all .5s ease-in-out;
