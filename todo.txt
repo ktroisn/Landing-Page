@@ -1,6 +1,0 @@
--Container titre et paragraphe : 
-    Largeur
-
--Titre :
-    Taille police
-    Couleur police
